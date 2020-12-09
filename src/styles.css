@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap");
+:root {
+  --primary-color: #1f4287;
+  --secondary-color: #21e6c1;
+  --ternary-color: #071e3d;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.App {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+h6 {
+  margin: 0.1rem 0;
+}
+hr {
+  background-color: var(--ternary-color);
+  /* color: var(--primary-color); */
+  height: 0.3rem;
+  border: none;
+  border-radius: 0.1rem;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container-pill {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  /* background-color: var(--ternary-color); */
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  max-width: 50%;
+}
+
+.pills {
+  cursor: pointer;
+  background-color: var(--ternary-color);
+  padding: 0.7rem;
+  border-radius: 0.4rem;
+  margin: 0.2rem;
+  user-select: none;
+}
+
+.artist {
+  background-color: var(--ternary-color);
+  margin: 1rem auto;
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 45%;
+}
+
+/* .image {
+  max-width: 50%;
+} */
+
+img {
+  max-width: 60%;
+  border-radius: 0.4rem;
+  margin: auto;
+}
+
+.content {
+  padding: 0 2.5rem;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: bolder;
+}
